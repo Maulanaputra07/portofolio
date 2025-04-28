@@ -49,7 +49,6 @@ function App() {
           {/*  */}
           <div className='w-[30%] rounded-xl absolute right-28' style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'contain', backgroundPosition: 'center'}}>
             <img  alt="" className='rounded-full' style={{
-              
             }}/>
           </div>
           <div className="mt-16 relative bottom-[-25%] h-16 w-max">
