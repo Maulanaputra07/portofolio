@@ -1,9 +1,10 @@
 import NavbarSticky from './components/navbar';
-import profile from './assets/profile.png';
+import profile from './assets/profile2.png';
 import backgroundImage from './assets/bg1.png'
 import paperBackground from './assets/paper.jpg'
 import Aboutme from './pages/aboutme';
 import CustomCursor from './components/customcursor';
+import {EnvelopeSimpleIcon, GithubLogoIcon, InstagramLogoIcon} from '@phosphor-icons/react'
 import './App.css';
 import { useState } from 'react';
 
@@ -31,25 +32,35 @@ function App() {
             style={{ backgroundImage: `url(${paperBackground})`, backgroundSize: 'contain', backgroundPosition: 'center' }}
           ></div>
           <div className="relative z-10 p-6">
-            <span className="block mb-4 text-xs md:text-sm text-black font-medium">
+            <span className="block mb-2 text-xs md:text-base text-black font-medium">
               Hi, Everyone!!
             </span>
             <h3 className="text-4xl md:text-6xl font-semibold">
               I am Maulana Putra Pamungkas
             </h3>
-            <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam nobis in
-              error repellat voluptatibus ad.
+            <p className="text-base md:text-lg text-slate-700 my-4 md:my-2">
+            I love exploring tech—building web, mobile, AI, and desktop apps that simply work.
             </p>
-            <button className="cursor-none rounded-2xl border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+            <div className='flex gap-2 justify-center m-2'>
+              <a href='https://github.com/Maulanaputra07' className="cursor-none border rounded-full border-black bg-white px-2 py-2 text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-full hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+                <GithubLogoIcon size={24} />
+              </a>
+              <a href='https://github.com/Maulanaputra07' className="cursor-none border rounded-full border-black bg-white px-2 py-2 text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-full hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none bg-gradient-to-r from-[#feda75] via-[#d62976] to-[#4f5bd5]">
+                <InstagramLogoIcon size={24} />
+              </a>
+              <a href='maulanaputra280807@gmail.com' className="cursor-none border rounded-full border-black bg-white px-2 py-2 text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-full hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+                <EnvelopeSimpleIcon size={24}/>
+              </a>
+            </div>
+            {/* <button className="cursor-none rounded-2xl border-2 border-dashed border-black bg-white px-6 py-3 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
               Contact me
-            </button>
+            </button> */}
           </div>
         </div>
           {/*  */}
           <div className='w-[30%] rounded-xl absolute right-28' style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'contain', backgroundPosition: 'center'}}>
-            <img  alt="" className='rounded-full' style={{
-            }}/>
+            {/* <img src={profile}  alt="" className='rounded-full' style={{
+            }}/> */}
           </div>
           <div className="mt-16 relative bottom-[-25%] h-16 w-max">
             <h3
