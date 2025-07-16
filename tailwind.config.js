@@ -7,6 +7,10 @@ export default {
     extend: {
       fontFamily: {
         righteous: ['Righteous', 'cursive'],
+        caveat: ['"Caveat"', 'cursive'],
+        instrument: ['"Instrument Serif"', 'serif'],
+        didact: ['"Didact Gothic"', 'sans-serif'],
+        playfair: ['"Playfair Display"', 'serif'],
       }
     },
   },
