@@ -39,6 +39,7 @@ export default function AboutMe() {
         <div className="py-12">
           <p className="font-caveat">!!!</p>
           <h1 className="font-caveat text-xl">Work in progress… waiting for the coffee to be ready.  ^_^</h1>
+          <p className="font-caveat">Not responsive yet T_T</p>
           <p className="font-caveat">!!!</p>
         </div>
       </div>
