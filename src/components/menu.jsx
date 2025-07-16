@@ -18,15 +18,19 @@ export default function Menu() {
                 </a>
             </div>
             <div className="flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-125 hover:rotate-12 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
-                <a href="">
-                    <img src={linkedin} width={50} alt="instagram" />
+                <a href="https://www.linkedin.com/in/maulana-putra-472402317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src={linkedin} width={50} alt="linkedin" />
                 </a>
             </div>
             <div className="flex flex-col items-center justify-center transition-transform duration-300 ease-in-out hover:scale-125 hover:-rotate-12 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
-                <img src={github} width={50} alt="github" />
+                <a href="https://github.com/Maulanaputra07">
+                    <img src={github} width={50} alt="github" />
+                </a>
             </div>
             <div className="flex flex-col items-center justify-center transition duration-300 ease-in-out hover:scale-125 hover:rotate-12 hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.8)]">
-                <img src={email} width={50} alt="email" />
+                <a href="mailto:maulanaputra280807@gmail.com">
+                    <img src={email} width={50} alt="email" />
+                </a>
             </div>
         </div>
       </div>
