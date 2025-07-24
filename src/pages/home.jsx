@@ -53,6 +53,9 @@ export default function Home(){
                         <li>Finish grad school without losing my mind</li>
                     </ul>
                 </div>
+
+                {/* <p className='text-8xl font-brink -rotate-6 text-[#30588C] select-none'>Scroll Down!!</p> */}
+
                 {/* <div className="mt-16 relative bottom-[-25%] h-16 w-max">
                     <h3
                     className="pt-5 text-4xl md:text-8xl font-normal font-righteous text-white"
@@ -72,7 +75,7 @@ export default function Home(){
                     PORTOFOLIO
                     </h3>
                 </div> */}
-                <div className="absolute bottom-5 h-5 right-5 w-max">
+                <div className="absolute bottom-0 h-5 right-5 w-max">
                     <div style={{position: 'relative', height: '300px'}}>
                         <TextPressure
                             text="Portofolio."
