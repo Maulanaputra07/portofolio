@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Home from './pages/home';
 import Aboutme from './pages/aboutme';
 import Menu from './components/menu';
+import Projects from './pages/projects';
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
 
         <section id="about">
           <Aboutme />
+        </section>
+
+        <section>
+          <Projects/>
         </section>
       </main>
     </div>

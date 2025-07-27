@@ -50,7 +50,7 @@ export default function Home(){
                         <li>Build that banger spotify playlist</li>
                         <li>Remember to touch grass today</li>
                         <li>Write code that actually works</li>
-                        <li>Finish grad school without losing my mind</li>
+                        <li>Finish grad collage without losing my mind</li>
                     </ul>
                 </div>
 

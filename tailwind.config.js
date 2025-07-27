@@ -11,7 +11,8 @@ export default {
         instrument: ['"Instrument Serif"', 'serif'],
         didact: ['"Didact Gothic"', 'sans-serif'],
         playfair: ['"Playfair Display"', 'serif'],
-        brink: ['Brink', 'sans-serif']
+        brink: ['Brink', 'sans-serif'],
+        staatliches: ['"Staatliches", sans-serif'],
       }
     },
   },

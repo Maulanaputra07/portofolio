@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
 import asset1 from "../assets/asset1.png";
-import img1 from "../assets/img1.png";
 
 export default function AboutMe() {
   return (
     <div className="bg-[#f7f7f7] text-[#2A2A2A] w-full h-full">
-      <div className="w-full h-[80vh] relative">
+      <div className="w-full h-full relative">
         <h1 className="text-2xl text-[#941b0c] font-bold mt-4 py-5 font-didact">About Me</h1>
 
         <div className="h-auto border border-black text-[#FAFAFA] text-center bg-[#BB2233] bg-opacity-90 select-none flex flex-col justify-center items-center py-16 relative overflow-hidden">
@@ -42,21 +41,27 @@ export default function AboutMe() {
           <div className="w-full flex">
             <div className="px-9 py-4 flex gap-3 flex-col text-start">
               <div>
-                <h1 className="font-didact text-3xl font-semibold py-2 text-[#941b0c] ">Junior Programmer Internship</h1>
-                <p className="text-md">Developed website and built an AI-powered chatbot using RASA, integrated seamlessly with WhatsApp. Collaborated with the team to implement features efficiently while enhancing my skills in web development, Python, and conversational AI. This internship strengthened my ability to deliver practical solutions that support business processes.</p>
+                <div className="border-b-2 border-black/35 flex h-fit items-center">
+                  <h1 className="font-didact text-3xl font-semibold py-2 text-[#941b0c] select-none">Junior Programmer Internship</h1>
+                  <h1 className="font-staatliches text-3xl">01</h1>
+                </div>
+                <p className="text-md pt-3">Developed website and built an AI-powered chatbot using RASA, integrated seamlessly with WhatsApp. Collaborated with the team to implement features efficiently while enhancing my skills in web development, Python, and conversational AI. This internship strengthened my ability to deliver practical solutions that support business processes.</p>
               </div>
               <div>
-                <h1 className="font-didact text-3xl font-semibold py-2 text-[#941b0c]">Freelance Web Development Team</h1>
-                <p className="text-md">Formed a freelance web development team with peers to design, build, and deploy websites for various clients. Collaborated in project planning, front-end and back-end development, and deployment processes to deliver responsive and user-friendly websites. This experience improved my teamwork, project management, and technical skills in real client environments.</p>
+                <div className="border-b-2 border-black/35 flex h-fit items-center">
+                  <h1 className="font-didact text-3xl font-semibold py-2 text-[#941b0c] select-none">Freelance Web Development Team</h1>
+                  <h1 className="font-staatliches text-3xl">02</h1>
+                </div>
+                <p className="text-md pt-3">Formed a freelance web development team with peers to design, build, and deploy websites for various clients. Collaborated in project planning, front-end and back-end development, and deployment processes to deliver responsive and user-friendly websites. This experience improved my teamwork, project management, and technical skills in real client environments.</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
+        {/* <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
           <img src={img1} width={150} alt="" />
           <h1 className="font-caveat text-xl">Work in progress… waiting for the coffee to be ready.  ^_^</h1>
-        </div>
+        </div> */}
         {/* <div className="py-12">
           <p className="font-caveat">!!!</p>
           <h1 className="font-brink">BRINK</h1>
