@@ -28,66 +28,75 @@ export default function Projects(){
                 </div>
             </div>
             <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative group w-[90rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={siprenMockUp}
                         alt=""
-                        className="absolute -top-20 left-0 w-[600px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        className="absolute -top-20 left-0 w-[800px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-30 transform origin-center"
                     />
-                    <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
-                        <img src={sipren} alt="SIPREN Logo" className="" width={100} />
-                        <p className="font-semibold text-2xl py-3 font-didact">SIPREN</p>
+                    <div className="flex flex-col items-center justify-center p-5 relative w-full overflow-visible group-hover:translate-y-2 transition-all duration-500">
+                        <img src={sipren} alt="SIPREN Logo" className="mb-2" width={100}/>
+                        <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-2 opacity-0 group-hover:opacity-100 z-50">A web-based attendance and scheduling system for schools, where students can check in using RFID cards. The platform provides real-time attendance tracking, schedule management, and an admin dashboard for school staff.</p>
+                        <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">SIPREN</p>
                     </div>
                 </div>
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative group w-[90rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={sjpMockup}
                         alt=""
-                        className="absolute -top-20 left-0 w-[600px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        className="absolute -top-28 left-0 w-[800px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
                     />
                     <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
                         <img src={sjp} alt="SIPREN Logo" className="" width={100} />
-                        <p className="font-semibold text-2xl py-3 font-didact">Sinar Jaya Prasasti</p>
+                        <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-2 opacity-0 group-hover:opacity-100 z-50">A promotional and blogging website for a local artisan, showcasing handcrafted services and publishing updates, stories, and news about recent works and events.</p>
+                        <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">Sinar Jaya Prasasti</p>
                     </div>
                 </div>
+            </div>
+            <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
+                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                        <img
+                            src={athenaMockUp}
+                            alt=""
+                            className="absolute -top-20 left-0 w-[400px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        />
+                        <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
+                            <img src={athena} alt="SIPREN Logo" className="" width={100} />
+                            <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-2 opacity-0 group-hover:opacity-100 z-50">An online student admission system that allows applicants to register digitally, with an admin panel for managing applicant data and automatic email delivery of registration documents.</p>
+                            <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">Athena</p>
+                        </div>
+                </div>
+                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                        <img
+                            src={athenaChatbotMockup}
+                            alt=""
+                            className="absolute -top-20 left-10 w-[300px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        />
+                        <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
+                            <img src={athenaChatbot} alt="SIPREN Logo" className="" width={100} />
+                            <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-2 opacity-0 group-hover:opacity-100 z-50">A WhatsApp-integrated chatbot designed to assist prospective students by providing real-time updates and information about the school.</p>
+                            <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">Athena Chatbot</p>
+                        </div>
+                </div>
+            </div>
+            <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
                 <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={situlusMockup}
                         alt=""
-                        className="absolute -top-24 left-0 w-[600px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        className="absolute -top-24 left-1/4 w-[400px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
                     />
                     <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
                         <img src={situlus} alt="SIPREN Logo" className="" width={100} />
-                        <p className="font-semibold text-2xl py-3 font-didact">SiTulus</p>
-                    </div>
-                </div>
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <img
-                        src={athenaMockUp}
-                        alt=""
-                        className="absolute -top-20 left-0 w-[600px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
-                    />
-                    <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
-                        <img src={athena} alt="SIPREN Logo" className="" width={100} />
-                        <p className="font-semibold text-2xl py-3 font-didact">Athena</p>
-                    </div>
-                </div>
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
-                    <img
-                        src={athenaChatbotMockup}
-                        alt=""
-                        className="absolute -top-20 -left-5 w-[600px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
-                    />
-                    <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
-                        <img src={athenaChatbot} alt="SIPREN Logo" className="" width={100} />
-                        <p className="font-semibold text-2xl py-3 font-didact">Athena Chatbot</p>
+                        <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-4 opacity-0 group-hover:opacity-100 z-50">A desktop application built to scan QR codes and record student attendance during a school graduation event in real-time.</p>
+                        <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-4 transition-all duration-300">SiTulus</p>
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
+            {/* <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
                 <img src={img1} width={150} alt="" />
                 <h1 className="font-caveat text-xl">Work in progress… waiting for the coffee to be ready.  ^_^</h1>
-            </div>
+            </div> */}
         </div>
     )
 }
