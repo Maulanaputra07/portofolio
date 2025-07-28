@@ -93,10 +93,10 @@ export default function Projects(){
                     </div>
                 </div>
             </div>
-            {/* <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
+            <div className="w-full flex flex-col items-center justify-center mt-12 pb-12">
                 <img src={img1} width={150} alt="" />
-                <h1 className="font-caveat text-xl">Work in progress… waiting for the coffee to be ready.  ^_^</h1>
-            </div> */}
+                <h1 className="font-caveat text-xl">Next content coming soon... waiting for the coffee to be ready.  ^_^</h1>
+            </div>
         </div>
     )
 }
