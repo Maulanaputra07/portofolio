@@ -28,7 +28,7 @@ export default function Home(){
                         style={{ backgroundImage: `url(${paperBackground})`, backgroundSize: 'contain', backgroundPosition: 'center' }}
                     ></div>
                     <div className="relative z-10 p-6 w-full select-none">
-                        <div className='font-caveat text-6xl -rotate-6 text-gray-500'>
+                        <div className='font-caveat text-4xl sm:text-6xl -rotate-6 text-gray-500'>
                             <p>Welcome to my corner</p>
                             <p>on internet :)</p>
                         </div>
@@ -40,7 +40,7 @@ export default function Home(){
                     }}/> */}
                 </div>
 
-                <div className='select-none relative -rotate-3 -top-10 -right-52 bg-[#FEF49C] max-w-max p-5 text-lg rounded-lg border transition-all duration-300 ease-in-out hover:shadow-xl hover:-rotate-6 hover:scale-105 hover:-translate-y-1'>
+                <div className='select-none relative -rotate-3 -top-10 sm:-right-52 -right-10 bg-[#FEF49C] max-w-max p-5 sm:text-lg text-sm rounded-lg border transition-all duration-300 ease-in-out hover:shadow-xl hover:-rotate-6 hover:scale-105 hover:-translate-y-1'>
                     <p className='font-semibold'>to do:</p>
                     <ul className='text-start'>
                         <li className='line-through'>Wake up</li>
@@ -75,7 +75,7 @@ export default function Home(){
                     PORTOFOLIO
                     </h3>
                 </div> */}
-                <div className="absolute bottom-0 h-5 right-5 w-max">
+                <div className="absolute sm:bottom-0 bottom-12 h-5 right-5 w-max">
                     <div style={{position: 'relative', height: '300px'}}>
                         <TextPressure
                             text="Portofolio."

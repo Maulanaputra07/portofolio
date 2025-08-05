@@ -233,10 +233,10 @@ const TextPressure = ({
 
       <h1
         ref={titleRef}
-        className={`text-pressure-title ${dynamicClassName}`}
+        className={`text-pressure-title ${dynamicClassName} text-[90px] sm:text-[125px]`}
         style={{
           fontFamily: "Instrument Serif",
-          fontSize: 125,
+          // fontSize: 125,
           lineHeight,
           transform: `scale(1, ${scaleY})`,
           transformOrigin: "center top",

@@ -15,7 +15,7 @@ export default function Projects(){
         <div className="h-full min-h-screen w-full py-10">
             <div className="w-full h-fit p-5 flex items-center !justify-center">
                 <div className="py-5 relative w-fit select-none">
-                    <p className="text-9xl font-staatliches" style={{ color: "transparent", WebkitTextStroke: "2px black" }}>
+                    <p className="sm:text-9xl text-7xl font-staatliches" style={{ color: "transparent", WebkitTextStroke: "2px black" }}>
                     PROJECTS
                     </p>
                     <p className="font-staatliches absolute top-2 -left-2 z-20 font-black text-5xl -rotate-3">01</p>
@@ -27,8 +27,8 @@ export default function Projects(){
                 <div className="flex">
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
-                <div className="relative group w-[90rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-10 w-full h-fit px-32 mt-12">
+                <div className="relative group sm:w-[90rem] w-[25rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={siprenMockUp}
                         alt=""
@@ -40,7 +40,7 @@ export default function Projects(){
                         <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">SIPREN</p>
                     </div>
                 </div>
-                <div className="relative group w-[90rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative group sm:w-[90rem] w-[25rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={sjpMockup}
                         alt=""
@@ -53,8 +53,8 @@ export default function Projects(){
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-10 w-full h-fit px-32 mt-12">
+                <div className="relative group sm:w-full w-[25rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                         <img
                             src={athenaMockUp}
                             alt=""
@@ -66,7 +66,7 @@ export default function Projects(){
                             <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-16 transition-all duration-300">Athena</p>
                         </div>
                 </div>
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+                <div className="relative group sm:w-full w-[25rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                         <img
                             src={athenaChatbotMockup}
                             alt=""
@@ -79,17 +79,17 @@ export default function Projects(){
                         </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-10 w-full h-fit px-32 mt-12">
-                <div className="relative group w-full overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-10 w-full h-fit px-32 mt-12">
+                <div className="relative group sm:w-full w-[25rem] overflow-visible cursor-pointer hover:scale-105 transition-transform duration-300">
                     <img
                         src={situlusMockup}
                         alt=""
-                        className="absolute -top-24 left-1/4 w-[400px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
+                        className="absolute -top-24 sm:left-1/4 left-0 w-[400px] opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500 -z-10 transform origin-center"
                     />
                     <div className="flex flex-col items-center justify-center p-5 group-hover:translate-y-2 transition-all duration-500">
                         <img src={situlus} alt="SIPREN Logo" className="" width={100} />
                         <p className="font-normal text-sm font-didact w-full absolute top-28 text-center px-4 py-4 opacity-0 group-hover:opacity-100 z-50">A desktop application built to scan QR codes and record student attendance during a school graduation event in real-time.</p>
-                        <p className="font-semibold text-2xl py-3 font-didact group-hover:translate-y-4 transition-all duration-300">SiTulus</p>
+                        <p className="font-semibold text-2xl py-3 font-didact sm:group-hover:translate-y-4 group-hover:translate-y-16 transition-all duration-300">SiTulus</p>
                     </div>
                 </div>
             </div>
