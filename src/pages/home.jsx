@@ -18,7 +18,7 @@ export default function Home(){
     };
     
     return(
-        <div className='p-[2rem] w-full h-screen bg-[#f7f7f7]'>
+        <div className='p-[2rem] w-full h-[100dvh] bg-[#f7f7f7]'>
             <div className='absolute bg-transparent border-black/30 rounded-lg border-2 w-[98%] h-[95%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'></div>
         
             <section className="w-full relative px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-max mx-auto">
