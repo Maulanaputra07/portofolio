@@ -21,9 +21,10 @@ function App() {
 
   return(
     <div  className='bg-[#f7f7f7]'>
-      <CustomCursor color={cursorColor}/>
+      <div className="hidden md:block">
+        <CustomCursor color={cursorColor}/>
+      </div>
       <Menu />
-      {/* <NavbarSticky /> */}
 
       <main>
         <section id="home">
